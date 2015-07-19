@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="180" maxWidth="220" 
+      minHeight="180" minWidth="230" 
+      prefHeight="180" prefWidth="220.0" 
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ToolBar>
+         <items>
+            <Button fx:id="buttonLeft" mnemonicParsing="false" text="%fa.arrow_left" />
+            <ChoiceBox fx:id="selectIcon" prefWidth="140.0" />
+            <Button fx:id="buttonRight" mnemonicParsing="false" text="%fa.arrow_right" />
+         </items>
+      </ToolBar>
+      <HBox fx:id="iconContainer" styleClass="icon-container">
+         <children>            
+            <Label fx:id="icon" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
