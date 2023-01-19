@@ -1,3 +1,5 @@
 # javafx-font-awesome-demo
 
-http://www.devlabs.ninja/article/font-awesome-icons-in-a-javafx-application
+- https://www.devlabs.ninja/font-awesome-icons-with-javafx-1/
+- https://www.devlabs.ninja/font-awesome-icons-with-javafx-2/
+- https://www.devlabs.ninja/font-awesome-icons-with-javafx-3/
